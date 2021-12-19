@@ -37,13 +37,13 @@ function Header () {
     useEffect(() => {
         document.body.setAttribute('data-theme', theme)
     }, [theme])
-    return(
+    return (
         <HeaderEl>
             <Container>
                 <Wrapper>
                     <Title>Where is the world?</Title>
                     <ModeSwitcher onClick={toggleTheme}>
-                        {theme == 'light' ? (
+                        {theme === 'light' ? (
                             <IoMoon size="15px" />
                         ) : (
                             <IoMoonOutline size="15px" />
