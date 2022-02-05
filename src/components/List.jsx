@@ -4,6 +4,7 @@ import styled from "styled-components";
 const Wrapper = styled.section`
     width: 100%;
     padding: 2rem 0;
+    
     display: grid;
     grid-template-columns: (1, 1fr);
     gap: 2rem;

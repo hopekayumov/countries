@@ -10,11 +10,11 @@ import Card from "./components/Card";
 
 function App() {
   const [countries, setCountires] = useState([]);
-  console.log(countries);
 
   useEffect(() => {
     axios.get(ALL_COUNTRIES).then(({ data }) => setCountires(data));
   }, []);
+  
   return (
     <>
       <Header />

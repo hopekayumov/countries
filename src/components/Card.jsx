@@ -6,7 +6,7 @@ const CardImage = styled.img``;
 const CardBody = styled.div``;
 const CardTitle = styled.h3``;
 const CardList = styled.ul``;
-const CardListItem = styled``;
+const CardListItem = styled.li``;
 
 function Card({ img, name, info = [], onClick }) {
   return (
