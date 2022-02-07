@@ -14,7 +14,7 @@
   --fw-bold: 800;
 
   /* Others */
-  --border-radius: 0.5rem;
+  --radius: 0.5rem;
 }
 body[data-theme="dark"] {
   --colors-text: hsl(0, 0%, 100%);

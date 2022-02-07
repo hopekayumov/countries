@@ -12,9 +12,9 @@ const Wrapper = styled.main`
 
 function Main({ children }) {
   return (
-    <Main>
+    <Wrapper>
       <Container>{children}</Container>
-    </Main>
+    </Wrapper>
   );
 }
 
